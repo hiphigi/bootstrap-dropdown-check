@@ -1,5 +1,6 @@
 
-    $(document).on('click', 'ul.dropdown-menu.stay li a', function (e) {
+// something else    
+$(document).on('click', 'ul.dropdown-menu.stay li a', function (e) {
         // stop the link href action, then stop the menu from closing if it isn't the Close Menu (.close) link
         e.preventDefault();
 
